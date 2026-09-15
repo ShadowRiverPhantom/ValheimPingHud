@@ -1,19 +1,6 @@
 # Valheim PingHud
 
-Shows the current server's **latency** and **packet loss** on the HUD, in a panel styled to match
-DayTimeCountdown.
-
-```
-┌──────────────────────────────┐  ← DayTimeCountdown
-│ Day 128            13m 42s   │
-└──────────────────────────────┘
-              ┌───────┐
-              │minimap│
-              └───────┘
-┌──────────────────────────────┐  ← PingHud
-│ Ping 45 ms        Loss 0.0%  │
-└──────────────────────────────┘
-```
+Shows the current server's **latency** and **packet loss** on the HUD
 
 ## Features
 
