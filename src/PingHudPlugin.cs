@@ -125,7 +125,7 @@ namespace ValheimPingHud
 
             CfgPosition = Config.Bind(position, "Anchor 位置", "BelowMinimap",
                 "面板位置。可选值：\n" +
-                "  BelowMinimap  - 小地图正下方（默认，和 DayTimeCountdown 默认位置相反）\n" +
+                "  BelowMinimap  - 小地图正下方（默认）\n" +
                 "  AboveMinimap  - 小地图正上方\n" +
                 "  TopRight / TopLeft / BottomRight / BottomLeft - 屏幕四角\n" +
                 "Panel anchor: BelowMinimap (default), AboveMinimap, TopRight, TopLeft, BottomRight, BottomLeft.");
@@ -145,8 +145,8 @@ namespace ValheimPingHud
 
             CfgAvoidPanelNames = Config.Bind(position, "Avoid panel names 避让面板名称", "DayTimePanel",
                 "需要避让的 HUD 子物体名称（逗号分隔）。\n" +
-                "DayTimeCountdown 的面板名称为 DayTimePanel。\n" +
-                "Comma separated list of HUD child objects to avoid. DayTimeCountdown uses 'DayTimePanel'.");
+                "填 HUD 里已存在的面板名即可，避免和本面板重叠。\n" +
+                "Comma separated list of HUD child object names to avoid. If a panel with one of these names is already in the way, PingHud moves aside.");
 
             CfgPanelWidth = Config.Bind(appearance, "Panel width 面板宽度", 200f,
                 "面板宽度。\nPanel width.");

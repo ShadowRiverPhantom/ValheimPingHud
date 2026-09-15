@@ -1,16 +1,15 @@
 # Valheim PingHud
 
-Shows the current server's **latency** and **packet loss** on the HUD
+Shows the current server's **latency** and **packet loss** on the HUD.
 
 ## Features
 
 - **Ping and packet loss**, colour-coded green / yellow / red against thresholds you set
 - **Optional extra rows**: jitter, connection quality, and up/down bandwidth
-- **Never overlaps DayTimeCountdown** — it sits below the minimap by default and moves itself out
-  of the way if the two would collide
+- **Sits below the minimap** and moves itself aside if another HUD panel is already there, so it
+  never covers anything
 - **Position**: below or above the minimap, or any of the four screen corners
-- **Appearance**: size, font, font size and colour, text outline, background — the same options
-  DayTimeCountdown exposes, so the two can be kept visually consistent
+- **Appearance**: size, font, font size and colour, text outline, background
 - **Language**: English, Simplified Chinese and Traditional Chinese; any other game language falls
   back to English
 - **F8** toggles the panel
@@ -18,7 +17,7 @@ Shows the current server's **latency** and **packet loss** on the HUD
 
 ## One thing to know about packet loss
 
-Valheim only reports real latency and loss on **Steam P2P** connections — join by Steam friend
+Valheim only reports real latency and loss on **Steam P2P** connections - join by Steam friend
 invite or the server browser, with Crossplay off.
 
 On **Crossplay** and **direct IP / LAN** connections the game itself provides no loss figure, so the
