@@ -25,3 +25,8 @@ panel shows `N/A` instead of inventing one. `N/A` means "this connection type do
 `--` means "no reading yet".
 
 When you are hosting, the figure is the average across all connected players.
+
+## AI disclosure
+
+Parts of this mod were produced with AI assistance: the Traditional Chinese
+translation, and parts of the documentation.
