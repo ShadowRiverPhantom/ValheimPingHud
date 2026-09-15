@@ -1,8 +1,8 @@
 {
     "name":  "PingHud",
     "version_number":  "1.2.0",
-    "website_url":  "",
-    "description":  "Server latency and packet loss in a small panel matching DayTimeCountdown. Sits below the minimap and never overlaps it. English, Simplified and Traditional Chinese.",
+    "website_url":  "https://github.com/ShadowRiverPhantom/ValheimPingHud",
+    "description":  "Shows server latency and packet loss on the HUD.",
     "dependencies":  [
                          "denikson-BepInExPack_Valheim-5.4.2350"
                      ]
