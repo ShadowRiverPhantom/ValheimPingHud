@@ -1,0 +1,9 @@
+{
+    "name":  "PingHud",
+    "version_number":  "1.2.0",
+    "website_url":  "",
+    "description":  "Displays the latency and packet loss of the connection to the current server, in a small panel styled like DayTimeCountdown and placed so the two never overlap. Works on Steam P2P, direct-IP and crossplay connections.",
+    "dependencies":  [
+                         "denikson-BepInExPack_Valheim-5.4.2350"
+                     ]
+}
